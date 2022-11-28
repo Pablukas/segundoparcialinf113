@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+}
+header{background-image: url(../imagenes/cab.jpg);
+	width: 100%;
+	height: 100px;
+	background-size: cover;
+
+}
+nav{background-color: white;
+	width: 100%;
+}
+aside{background-image: url(../imagenes/enla.jpg);
+	width: 30%;
+	float: left;
+	height: 356px;
+	background-size: cover;
+}
+aside:hover{
+	transform: scale(1.0);
+}
+section{width: 70%;
+	background-image: url(../imagenes/fondo.jpg);
+	height: 356px;
+	float: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+footer{background-image: url(../imagenes/mar.jpg);
+       width: 100%;
+       float: left;
+       height: 100px;
+       background-size: cover;
+
+}
+img{
+	width: 100px;
+	height: 100px;
+	margin-top: 39px;
+	margin-bottom: 39px;
+	margin-left: 60px;
+	margin-right: 60px;
+	border-radius: 60px;
+}
+img:hover{
+	transform: scale(2.0);
+}
